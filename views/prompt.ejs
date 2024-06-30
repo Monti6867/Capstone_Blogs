@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Capstone Project</title>
+</head>
+<body>
+    <div class="blogbody">
+    <header class="heading">
+        <h1>Blog Creator</h1>
+    </header>
+    <div class="blogCreate">
+        <form class="card" action="/submit" method="POST">
+            <h2>Create a New Blog Post</h2>
+            <div class="name">
+                <label for="filename" class="fname">File Name:</label>
+            <input type="text" id="filename" name="filename" required>
+            </div>
+    
+            <div class="mess">
+                <label for="content" class="mname">Which Blog You Want to Upload:</label>
+                <textarea id="content" name="content" required>Write your blog</textarea>
+            </div>
+            
+            <button class="promptbutton" type="submit" value="Submit">submit</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>

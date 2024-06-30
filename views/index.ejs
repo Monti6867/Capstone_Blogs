@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capstone Project</title>
+</head>
+<body class="frontend">
+    <%- include("partials/header.ejs") %>
+    <h1>Read Blog Below </h1>
+    
+    <% if (blogFiles.length > 0) { %>
+        <ul>
+            <% blogFiles.forEach(file => { %>
+                <li>
+                    <a href="/blog/<%= file %>"><%= file %></a>
+                    <a href="/edit/<%= file %>"><button class="change">Edit</button></a>
+                    <form action="/delete/<%= file %>" method="POST" style="display:inline;">
+                        <button class="change" type="submit">Delete</button>
+                    </form>
+                </li>
+            <% }) %>
+        </ul>
+    <% } else { %>
+        <p>No blog files found😐.</p>
+    <% } %>
+</body>
+</html>
