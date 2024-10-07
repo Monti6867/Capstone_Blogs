@@ -14,6 +14,12 @@ Express.js: Framework for handling routes and middleware.<br><br>
 EJS: Templating engine for rendering views.<br><br>
 File System (fs): Used for file operations (reading, writing, and deleting blog files).<br>
 
+## Project Snapshots
+![WhatsApp Image 2024-10-07 at 23 25 38_6160a956](https://github.com/user-attachments/assets/ad3ef587-9e49-4bd3-831f-febd6de8fc26)
+
+![WhatsApp Image 2024-10-07 at 23 26 50_3a4319ea](https://github.com/user-attachments/assets/df94d80a-38c6-4d80-87e7-d007a895b09b)
+
+![WhatsApp Image 2024-10-07 at 23 28 20_ebd38924](https://github.com/user-attachments/assets/40df78b9-f84f-46a7-9dcc-dcf306d38843)
 
 <h1>Routes</h1>
 
