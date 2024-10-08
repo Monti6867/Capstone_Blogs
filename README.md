@@ -3,16 +3,16 @@
 This project is a basic blog platform built with Node.js, Express, and EJS for server-side rendering. It features full CRUD (Create, Read, Update, Delete) functionality for managing blog posts. Users can create, edit, view, and delete blog files.
 
 <h1>Features</h1>
-Create: Users can create a new blog post by submitting a form.<br><br>
-Read: Users can view all available blog posts on the homepage.<br><br>
-Update: Users can edit existing blog posts.<br><br>
-Delete: Users can delete any blog post.<br><br>
+<b>Create:</b>  Users can create a new blog post by submitting a form.<br><br>
+<b>Read:</b>  Users can view all available blog posts on the homepage.<br><br>
+<b>Update:</b> Users can edit existing blog posts.<br><br>
+<b>Delete:</b> Users can delete any blog post.<br><br>
 
 <h1>Technology Stack</h1>
-Node.js: JavaScript runtime for the server.<br><br>
-Express.js: Framework for handling routes and middleware.<br><br>
-EJS: Templating engine for rendering views.<br><br>
-File System (fs): Used for file operations (reading, writing, and deleting blog files).<br>
+<b>Node.js:</b> JavaScript runtime for the server.<br><br>
+<b>Express.js:</b> Framework for handling routes and middleware.<br><br>
+<b>EJS:</b> Templating engine for rendering views.<br><br>
+<b>File System (fs):</b> Used for file operations (reading, writing, and deleting blog files).<br>
 
 ## Project Snapshots
 <img src="https://github.com/user-attachments/assets/ad3ef587-9e49-4bd3-831f-febd6de8fc26" width="600" height="500">
